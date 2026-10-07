@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- needed for all html files -->
+
+<html lang="en"> <!-- declares default language on the web page -->
+<head> <!-- contains meta data about the page -->
+    <meta charset="UTF-8"> <!-- specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ensures the page is responsive and scales correctly on different devices -->
+    <title>Course Information</title> 
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        main {
+            flex: 1;
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-group {
+            margin-bottom: 1.2rem;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #0056b3;
+        }
+
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Student & Course Overview</h1>
+    </header>
+
+    <main>
+        <div class="info-group">
+            <span class="info-label">Username:</span> azka09faisal-oss
+        </div>
+        <div class="info-group">
+            <span class="info-label">Course Name:</span> Intro to Web Development
+        </div>
+        <div class="info-group">
+            <span class="info-label">Course Number:</span> IS117
+        </div>
+        <div class="info-group">
+            <span class="info-label">Section:</span> 001
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Azka Faisal | Due Date: 10/6/26</p>
+    </footer>
+
+</body>
+</html>
